@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Freesat", "Freesat.csproj", "{1010F3DF-AF63-4943-A055-64AB223C5B5E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{00B5AFF2-1099-4690-AC0C-94240C5EA621}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Data.Common\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Data.Common.dll = C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Data.Common\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Data.Common.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1010F3DF-AF63-4943-A055-64AB223C5B5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1010F3DF-AF63-4943-A055-64AB223C5B5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1010F3DF-AF63-4943-A055-64AB223C5B5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1010F3DF-AF63-4943-A055-64AB223C5B5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9C0C8C4-28E7-423C-A84C-93272B6709A4}
+	EndGlobalSection
+EndGlobal
