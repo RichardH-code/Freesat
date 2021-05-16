@@ -116,9 +116,11 @@ namespace Freesat
             {
                 const string strSep = "\t";
                 string strAppPath = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + @"\";
+                string strResPath = strAppPath + @"Resources\";
+                string strTgtPath = strAppPath + @"Target\"; ;
 
                 Console.WriteLine("Loading configuration.");
-                Config.Initialize(strAppPath + "config.xml");
+                Config.Initialize(strResPath + "config.xml");
 
                 var argsXslt = new XsltArgumentList();
                 argsXslt.AddParam("satellite_name", "", Config.strSatName);
@@ -128,7 +130,7 @@ namespace Freesat
                 argsXslt.AddParam("headend_languageIso639", "", Config.strHeadendLang);
 
                 Console.WriteLine("Reading tuning parameter file.");
-                using var srTune = new StreamReader(strAppPath + Config.strScnCsvName + ".csv", Encoding.GetEncoding(65000));
+                using var srTune = new StreamReader(strResPath + Config.strScnCsvName + ".csv", Encoding.GetEncoding(65000));
                 string[] strHdrsTune = srTune.ReadLine().Split(strSep);
 
                 Console.WriteLine(strHdrsTune[Config.iScnPositionEast] + " -> DvbsSatellite _positionEast");
@@ -164,7 +166,7 @@ namespace Freesat
                 }
 
                 Console.WriteLine("Reading EPG123 file.");
-                string file = strAppPath + "EPG123Client.csv";
+                string file = strResPath + "EPG123Client.csv";
                 if (File.Exists(file))
                 {
                     using var srEpg = new StreamReader(file, Encoding.UTF8);
@@ -187,8 +189,8 @@ namespace Freesat
                 }
                 else Console.WriteLine("Nothing to read.");
 
-                Console.WriteLine("Writing MXF to " + strAppPath + @"Target.");
-                Directory.CreateDirectory(strAppPath + "Target");
+                Console.WriteLine("Writing MXF to " + strTgtPath + ".");
+                Directory.CreateDirectory(strTgtPath);
                 var xslt = new XslCompiledTransform();
                 using Stream strmXsl = Assembly.GetExecutingAssembly().GetManifestResourceStream("Freesat.Resources.freesat.xsl");
                 using var rdrXsl = XmlReader.Create(strmXsl);
@@ -254,10 +256,10 @@ namespace Freesat
                 using var wrtMxf = XmlWriter.Create(strAppPath + @"Target\freesat.mxf", wrtSettings);
                 xslt.Transform(rdrXml, argsXslt, wrtMxf);
 
-                Console.WriteLine("Copying files to " + strAppPath + @"Target.");
-                File.WriteAllText(strAppPath + @"Target\EPG.reg", Properties.Resources.EPG);
-                File.WriteAllText(strAppPath + @"Target\loadMXF.cmd", Properties.Resources.loadMXF);
-                File.WriteAllText(strAppPath + @"Target\Readme.txt", Properties.Resources.Readme);
+                Console.WriteLine("Copying files to " + strTgtPath + ".");
+                File.WriteAllText(strTgtPath + @"EPG.reg", Properties.Resources.EPG);
+                File.WriteAllText(strTgtPath + @"loadMXF.cmd", Properties.Resources.loadMXF);
+                File.WriteAllText(strTgtPath + @"Readme.txt", Properties.Resources.Readme);
 
                 Console.WriteLine("Success.");
                 Console.WriteLine("Press Enter to exit.");
