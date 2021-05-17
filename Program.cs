@@ -31,7 +31,6 @@ namespace Freesat
             public static string strSatPositionEast = "";
             static Config() { }
 
-            //public static bool Initialize(string file)
             public static void Initialize(string file)
             {
                 var xmlConfig = new XmlDocument();
@@ -58,12 +57,9 @@ namespace Freesat
                 }
                 catch (FormatException e)
                 {
-                    //Console.WriteLine(e.Message);
-                    //return false;
-                    Console.WriteLine("Cannot parse element as integer.");
+                    Console.WriteLine("Invalid column number format.");
                     throw;
                 }
-                //return true;
             }
         }
         public class Service
@@ -96,7 +92,7 @@ namespace Freesat
             public string Preset { get => _preset.ToString(); set => _preset = ushort.Parse(value.Trim()); }
             public string PresetValid { get => _presetValid.ToString().ToLower(); set => _presetValid = bool.Parse(value); }
             public string ServiceTypeValid { get => bool.TrueString.ToLower(); }
-            public string IsEncryptedValid { get => bool.TrueString.ToLower(); }
+            public string IsEncryptedValid { get => bool.FalseString.ToLower(); }
             public string UidT
             {
                 get => Join("!", "", "DvbsDataSet", Format("DvbsSatellite[{0}]", this.PositionEast), Format("DvbsTransponder[{0}]", Join(",", this.CarrierFrequency, "Linear" + (this._polarizationH ? "Horizontal" : "Vertical"), this.SymbolRate)));
