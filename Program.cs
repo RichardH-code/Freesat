@@ -55,7 +55,7 @@ namespace Freesat
                     iScnTransportStreamId = uint.Parse(xmlConfig.SelectSingleNode("//_transportStreamId/index").InnerText) - 1;
                     iScnName = uint.Parse(xmlConfig.SelectSingleNode("//_name/index").InnerText) - 1;
                 }
-                catch (FormatException e)
+                catch (FormatException)
                 {
                     Console.WriteLine("Invalid column number format.");
                     throw;
@@ -187,10 +187,6 @@ namespace Freesat
 
                 Console.WriteLine("Writing MXF to " + strTgtPath + ".");
                 Directory.CreateDirectory(strTgtPath);
-                var xslt = new XslCompiledTransform();
-                using Stream strmXsl = Assembly.GetExecutingAssembly().GetManifestResourceStream("Freesat.Resources.freesat.xsl");
-                using var rdrXsl = XmlReader.Create(strmXsl);
-                xslt.Load(rdrXsl);
 
                 using var strmXml = new MemoryStream();
                 using var wrtXml = XmlWriter.Create(strmXml);
@@ -245,9 +241,12 @@ namespace Freesat
                 wrtXml.Flush();
                 strmXml.Seek(0, SeekOrigin.Begin);
 
+                using Stream strmXsl = Assembly.GetExecutingAssembly().GetManifestResourceStream("Freesat.Resources.freesat.xsl");
+                using var rdrXsl = XmlReader.Create(strmXsl);
+                var xslt = new XslCompiledTransform();
+                xslt.Load(rdrXsl);
                 var wrtSettings = xslt.OutputSettings.Clone();
                 wrtSettings.NewLineOnAttributes = true;
-
                 using var rdrXml = XmlReader.Create(strmXml);
                 using var wrtMxf = XmlWriter.Create(strAppPath + @"Target\freesat.mxf", wrtSettings);
                 xslt.Transform(rdrXml, argsXslt, wrtMxf);

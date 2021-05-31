@@ -118,78 +118,6 @@
             </_services>
           </DvbsTransponder>
           <DvbsTransponder
-            uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]"
-            _carrierFrequency="10758"
-            _polarization="1"
-            _symbolRate="22000"
-            _originalNetworkIdValid="true"
-            _transportStreamIdValid="true"
-            _originalNetworkId="2"
-            _transportStreamId="2044">
-            <_services>
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10060]"
-                _name="ITV1LON"
-                _serviceId="10060"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10110]"
-                _name="ITV Wales (eng)"
-                _serviceId="10110"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10080]"
-                _name="ITV1GRA"
-                _serviceId="10080"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10079]"
-                _name="ITVi Stream 44"
-                _serviceId="10079"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10070]"
-                _name="ITV2"
-                _serviceId="10070"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10072]"
-                _name="ITV4"
-                _serviceId="10072"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10071]"
-                _name="CHITV"
-                _serviceId="10071"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10100]"
-                _name="ITV (eng)"
-                _serviceId="10100"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10101]"
-                _name="ITV"
-                _serviceId="10101"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10075]"
-                _name="ITVBE"
-                _serviceId="10075"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-            </_services>
-          </DvbsTransponder>
-          <DvbsTransponder
             uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10788,LinearVertical,22000]"
             _carrierFrequency="10788"
             _polarization="1"
@@ -595,6 +523,36 @@
                 _serviceId="10163"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10891,LinearHorizontal,22000]!DvbsService[10122]"
+                _name="ITV (eng)"
+                _serviceId="10122"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10891,LinearHorizontal,22000]!DvbsService[10147]"
+                _name="ITV Wales (eng)"
+                _serviceId="10147"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10891,LinearHorizontal,22000]!DvbsService[10142]"
+                _name="ITV (eng)"
+                _serviceId="10142"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10891,LinearHorizontal,22000]!DvbsService[10164]"
+                _name="ITV4"
+                _serviceId="10164"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10891,LinearHorizontal,22000]!DvbsService[10161]"
+                _name="CHITV"
+                _serviceId="10161"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
             </_services>
           </DvbsTransponder>
           <DvbsTransponder
@@ -653,6 +611,30 @@
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10906,LinearVertical,22000]!DvbsService[10245]"
                 _name="ITV4 (eng)"
                 _serviceId="10245"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10906,LinearVertical,22000]!DvbsService[10202]"
+                _name="ITV2"
+                _serviceId="10202"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10906,LinearVertical,22000]!DvbsService[10250]"
+                _name="ITV (eng)"
+                _serviceId="10250"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10906,LinearVertical,22000]!DvbsService[10235]"
+                _name="ITV (eng)"
+                _serviceId="10235"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10906,LinearVertical,22000]!DvbsService[10233]"
+                _name="ITVBE"
+                _serviceId="10233"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
             </_services>
@@ -981,7 +963,7 @@
                 _isEncryptedValid="false" />
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11082,LinearHorizontal,22000]!DvbsService[50310]"
-                _name="JewelleryMaker"
+                _name="ShoppingQuartr"
                 _serviceId="-15226"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
@@ -1371,25 +1353,25 @@
                 _isEncryptedValid="false" />
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53320]"
-                _name="SOMOVC"
+                _name="GREAT! classic"
                 _serviceId="-12216"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53310]"
-                _name="SMOVACT"
+                _name="GREAT! action"
                 _serviceId="-12226"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53315]"
-                _name="SONYMOV"
+                _name="GREAT! movies"
                 _serviceId="-12221"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53365]"
-                _name="Sony Action"
+                _name="SMOVACT"
                 _serviceId="-12171"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
@@ -1401,13 +1383,13 @@
                 _isEncryptedValid="false" />
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53325]"
-                _name="Sony Classic"
+                _name="SOMOVC"
                 _serviceId="-12211"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53355]"
-                _name="Sony Movies"
+                _name="SONYMOV"
                 _serviceId="-12181"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
@@ -1443,13 +1425,13 @@
                 _isEncryptedValid="false" />
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53375]"
-                _name="SONYCUK"
+                _name="GREAT! tv"
                 _serviceId="-12161"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53380]"
-                _name="Sony Channel"
+                _name="SONYCUK"
                 _serviceId="-12156"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
@@ -1598,12 +1580,6 @@
             _transportStreamId="2089">
             <_services>
               <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11464,LinearHorizontal,22000]!DvbsService[54228]"
-                _name="Cruise1st.tv"
-                _serviceId="-11308"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11464,LinearHorizontal,22000]!DvbsService[54210]"
                 _name="Smithsonian"
                 _serviceId="-11326"
@@ -1667,6 +1643,12 @@
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11464,LinearHorizontal,22000]!DvbsService[54211]"
                 _name="PTC PUNJABI"
                 _serviceId="-11325"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11464,LinearHorizontal,22000]!DvbsService[54228]"
+                _name="Cruise1st.tv"
+                _serviceId="-11308"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
             </_services>
@@ -2404,24 +2386,6 @@
             </_services>
           </DvbsTransponder>
           <DvbsTransponder
-            uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11642,LinearHorizontal,23000]"
-            _carrierFrequency="11642"
-            _polarization="0"
-            _symbolRate="23000"
-            _originalNetworkIdValid="true"
-            _transportStreamIdValid="true"
-            _originalNetworkId="2"
-            _transportStreamId="2101">
-            <_services>
-              <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11642,LinearHorizontal,23000]!DvbsService[7100]"
-                _name="7100"
-                _serviceId="7100"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-            </_services>
-          </DvbsTransponder>
-          <DvbsTransponder
             uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11671,LinearHorizontal,23000]"
             _carrierFrequency="11671"
             _polarization="0"
@@ -2475,7 +2439,7 @@
             <_services>
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11686,LinearVertical,23000]!DvbsService[55392]"
-                _name="BLOOMEU"
+                _name="BLOMUK"
                 _serviceId="-10144"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
@@ -2948,12 +2912,6 @@
             _transportStreamId="2034">
             <_services>
               <DvbsService
-                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12363,LinearVertical,27500]!DvbsService[5107]"
-                _name="ITV1HDL"
-                _serviceId="5107"
-                _serviceTypeValid="true"
-                _isEncryptedValid="false" />
-              <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12363,LinearVertical,27500]!DvbsService[5106]"
                 _name="ITV HD (AC3,eng)"
                 _serviceId="5106"
@@ -2973,7 +2931,7 @@
             <_services>
               <DvbsService
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12226,LinearHorizontal,27500]!DvbsService[7502]"
-                _name="7502 (AC3,eng)"
+                _name="ITV HD (AC3,eng)"
                 _serviceId="7502"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
@@ -2981,6 +2939,54 @@
                 uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12226,LinearHorizontal,27500]!DvbsService[8459]"
                 _name="Get Sky Products"
                 _serviceId="8459"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+            </_services>
+          </DvbsTransponder>
+          <DvbsTransponder
+            uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12422,LinearHorizontal,27500]"
+            _carrierFrequency="12422"
+            _polarization="0"
+            _symbolRate="27500"
+            _originalNetworkIdValid="true"
+            _transportStreamIdValid="true"
+            _originalNetworkId="2"
+            _transportStreamId="2037">
+            <_services>
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12422,LinearHorizontal,27500]!DvbsService[6811]"
+                _name="6811 (und)"
+                _serviceId="6811"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12422,LinearHorizontal,27500]!DvbsService[6806]"
+                _name="6806"
+                _serviceId="6806"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12422,LinearHorizontal,27500]!DvbsService[6805]"
+                _name="6805"
+                _serviceId="6805"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12422,LinearHorizontal,27500]!DvbsService[6804]"
+                _name="6804"
+                _serviceId="6804"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12422,LinearHorizontal,27500]!DvbsService[6803]"
+                _name="6803"
+                _serviceId="6803"
+                _serviceTypeValid="true"
+                _isEncryptedValid="false" />
+              <DvbsService
+                uid="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12422,LinearHorizontal,27500]!DvbsService[6802]"
+                _name="6802"
+                _serviceId="6802"
                 _serviceTypeValid="true"
                 _isEncryptedValid="false" />
             </_services>
@@ -3048,36 +3054,6 @@
                     _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10714,LinearHorizontal,22000]!DvbsService[9241]"
                     _presetValid="true"
                     _preset="122" />
-                  <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10758:2:2044:10060]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10060]"
-                    _presetValid="true"
-                    _preset="937" />
-                  <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10758:2:2044:10080]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10080]"
-                    _presetValid="true"
-                    _preset="936" />
-                  <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10758:2:2044:10070]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10070]"
-                    _presetValid="true"
-                    _preset="13" />
-                  <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10758:2:2044:10072]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10072]"
-                    _presetValid="true"
-                    _preset="17" />
-                  <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10758:2:2044:10071]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10071]"
-                    _presetValid="true"
-                    _preset="602" />
-                  <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10758:2:2044:10075]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10758,LinearVertical,22000]!DvbsService[10075]"
-                    _presetValid="true"
-                    _preset="18" />
                   <DvbsChannel
                     uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10788:2:2046:10311]"
                     _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10788,LinearVertical,22000]!DvbsService[10311]"
@@ -3269,23 +3245,23 @@
                     _presetValid="true"
                     _preset="206" />
                   <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:11307:2:2110:53320]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53320]"
-                    _presetValid="true"
-                    _preset="303" />
-                  <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:11307:2:2110:53310]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53310]"
+                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:11307:2:2110:53365]"
+                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53365]"
                     _presetValid="true"
                     _preset="305" />
                   <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:11307:2:2110:53315]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53315]"
+                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:11307:2:2110:53325]"
+                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53325]"
+                    _presetValid="true"
+                    _preset="303" />
+                  <DvbsChannel
+                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:11307:2:2110:53355]"
+                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53355]"
                     _presetValid="true"
                     _preset="302" />
                   <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:11307:2:2110:53375]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53375]"
+                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:11307:2:2110:53380]"
+                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[11307,LinearVertical,27500]!DvbsService[53380]"
                     _presetValid="true"
                     _preset="142" />
                   <DvbsChannel
@@ -3369,10 +3345,25 @@
                     _presetValid="true"
                     _preset="915" />
                   <DvbsChannel
-                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:12363:2:2034:5107]"
-                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[12363,LinearVertical,27500]!DvbsService[5107]"
+                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10891:2:2053:10164]"
+                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10891,LinearHorizontal,22000]!DvbsService[10164]"
                     _presetValid="true"
-                    _preset="959" />
+                    _preset="17" />
+                  <DvbsChannel
+                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10891:2:2053:10161]"
+                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10891,LinearHorizontal,22000]!DvbsService[10161]"
+                    _presetValid="true"
+                    _preset="602" />
+                  <DvbsChannel
+                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10906:2:2054:10202]"
+                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10906,LinearVertical,22000]!DvbsService[10202]"
+                    _presetValid="true"
+                    _preset="13" />
+                  <DvbsChannel
+                    uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10906:2:2054:10233]"
+                    _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10906,LinearVertical,22000]!DvbsService[10233]"
+                    _presetValid="true"
+                    _preset="19" />
                   <DvbsChannel
                     uid="!DvbsDataSet!DvbsHeadend[250282]!DvbsChannel[282:10788:2:2046:10380]"
                     _service="!DvbsDataSet!DvbsSatellite[282]!DvbsTransponder[10788,LinearVertical,22000]!DvbsService[10380]"

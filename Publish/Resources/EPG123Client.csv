@@ -6,10 +6,10 @@ C4	4	Channel 4	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11126 
 CH5HD	5	Channel 5 HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10964 H (7750)	DVBS:282:10964:2:2057:7750	CH5HD
 BBC4HD	7	BBC Four HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11023 H (8931)	DVBS:282:11023:2:2061:8931	BBC4HD
 BBCSEHD	8	BBC Scotland HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11023 H (8924)	DVBS:282:11023:2:2061:8924	BBCSEHD
-ITV2	13	ITV2	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10758 V (10070)	DVBS:282:10758:2:2044:10070	ITV2
-ITVTHREE	15	ITV3	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10891 H (10163)	DVBS:282:10891:2:2053:10163	ITV3 (eng)
-ITV4	17	ITV4	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10758 V (10072)	DVBS:282:10758:2:2044:10072	ITV4
-ITVBE	18	ITV BE	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10758 V (10075)	DVBS:282:10758:2:2044:10075	ITVBE
+ITV2	13	ITV2	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10906 V (10202)	DVBS:282:10906:2:2054:10202	ITV2 (eng)
+ITVTHREE	15	ITV3	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10891 H (10163)	DVBS:282:10891:2:2053:10163	ITVTHREE
+ITV4	17	ITV4	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10891 H (10164)	DVBS:282:10891:2:2053:10164	ITV4 (eng)
+ITVBE	19	ITV BE	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10906 V (10233)	DVBS:282:10906:2:2054:10233	ITVBe (eng)
 E4	122	E4	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10714 H (9241)	DVBS:282:10714:2:2041:9241	E4
 4SEVEN	127	4Seven	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11126 V (21250)	DVBS:282:11126:2:2068:21250	4SEVEN
 5USA	129	5USA	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10964 H (7710)	DVBS:282:10964:2:2057:7710	5USA
@@ -19,7 +19,7 @@ PARNSVM	132	Paramount Network	EPG123 Freesat - London (London)	Digital Satellite
 CBSDRMA	134	CBS Drama	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11343 V (50903)	DVBS:282:11343:2:2112:50903	CBSDRMA
 CBSRELT	135	CBS Reality	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11343 V (55214)	DVBS:282:11343:2:2112:55214	CBSRELT
 CBSJUVM	137	CBS Justice	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11343 V (55209)	DVBS:282:11343:2:2112:55209	CBSJUVM
-SONYCUK	142	Sony Channel	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11307 V (53375)	DVBS:282:11307:2:2110:53375	SONYCUK
+SONYCUK	142	Sony Channel	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11307 V (53380)	DVBS:282:11307:2:2110:53380	GREAT! tv
 PICKTV	144	Pick TV	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	12070 H (5832)	DVBS:282:12070:2:2019:5832	PICKTV
 DAVE	157	Dave	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	12129 V (6506)	DVBS:282:12129:2:2022:6506	DAVE
 SMTSN	175	Smithsonian Channel HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11508 V (55271)	DVBS:282:11508:2:2092:55271	SMTSN
@@ -30,15 +30,15 @@ ALJAZAV	203	Al Jazeera	EPG123 Freesat - London (London)	Digital Satellite (DVB-S
 FR24EN	205	France 24 English HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11686 V (55310)	DVBS:282:11686:2:2104:55310	FR24EN
 RTUKHD	206	RT HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11225 V (53148)	DVBS:282:11225:2:2106:53148	RTUKHD
 CNNEUVM	207	CNN International	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11671 H (50290)	DVBS:282:11671:2:2103:50290	CNNEUVM
-BLOOMEU	208	Bloomberg TV HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11686 V (55392)	DVBS:282:11686:2:2104:55392	BLOOMEU
+BLOMUK	208	Bloomberg TV HD (UK)	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11686 V (55392)	DVBS:282:11686:2:2104:55392	BLOOMEU
 NHKWDVM	209	NHK World HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11225 V (53147)	DVBS:282:11225:2:2106:53147	NHKWDVM
 FILM4UK	300	Film4	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10714 H (9220)	DVBS:282:10714:2:2041:9220	FILM4UK
-SONYMOV	302	Sony Movies	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11307 V (53315)	DVBS:282:11307:2:2110:53315	SONYMOV
-SOMOVC	303	Sony Movies Classic	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	🔒11307 V (53320)	DVBS:282:11307:2:2110:53320	SOMOVC
-SMOVACT	305	Sony Movies Action	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11307 V (53310)	DVBS:282:11307:2:2110:53310	SMOVACT
+SONYMOV	302	Sony Movies	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11307 V (53355)	DVBS:282:11307:2:2110:53355	GREAT! movies
+SOMOVC	303	Sony Movies Classic	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11307 V (53325)	DVBS:282:11307:2:2110:53325	GREAT! class
+SMOVACT	305	Sony Movies Action	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11307 V (53365)	DVBS:282:11307:2:2110:53365	GREAT!action
 CBBCHD	600	CBBC HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10847 V (6952)	DVBS:282:10847:2:2050:6952	CBBCHD
 CBEEBHD	601	CBeebies HD	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11023 H (8932)	DVBS:282:11023:2:2061:8932	CBEEBHD
-CHITV	602	Children's ITV	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10758 V (10071)	DVBS:282:10758:2:2044:10071	CHITV
+CHITV	602	Children's ITV	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10891 H (10161)	DVBS:282:10891:2:2053:10161	CITV (eng)
 BBCR1	700	BBC Radio 1	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10803 H (6450)	DVBS:282:10803:2:2047:6450	BBCR1
 BBCR1X	701	BBC Radio 1 Xtra	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10803 H (6466)	DVBS:282:10803:2:2047:6466	BBCR1X
 BBCR2	702	BBC Radio 2	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10803 H (6452)	DVBS:282:10803:2:2047:6452	BBCR2
@@ -75,7 +75,4 @@ BBC1YNM	918	BBC One Yorkshire	EPG123 Freesat - London (London)	Digital Satellite
 BBC1NIH	921	BBC One HD (Northern Ireland)	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10847 V (6943)	DVBS:282:10847:2:2050:6943	BBC1NIH
 BBC1SCH	922	BBC One HD (Scotland)	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11023 H (8901)	DVBS:282:11023:2:2061:8901	BBC1SCH
 BBC1WAH	923	BBC One HD (Wales)	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	11023 H (8911)	DVBS:282:11023:2:2061:8911	BBC1WAH
-ITV1GRA	936	ITV1 (Granada)	EPG123 Freesat - North West (North West)	Digital Satellite (DVB-S)	10758 V (10080)	DVBS:282:10758:2:2044:10080	ITV1GRA
-ITV1LON	937	ITV1 (London)	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10758 V (10060)	DVBS:282:10758:2:2044:10060	ITV1LON
-ITV1HDL	959	ITV1 HD (London)	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	12363 V (5107)	DVBS:282:12363:2:2034:5107	ITV1HDL
 BBCRDB1	981	BBC Red Button 1	EPG123 Freesat - London (London)	Digital Satellite (DVB-S)	10773 H (6390)	DVBS:282:10773:2:2045:6390	BBCRDB1
